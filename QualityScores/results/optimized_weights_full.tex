@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Optimised Metric Weights per Dataset and Task}
+\label{tab:opt_weights}
+\begin{tabular}{llrrrrrrrr}
+\toprule
+dataset & direction & trustworthiness & knn_preservation & pairwise_mse & shepard_corr & continuity & lid & neighborhood_hit_rate & redundancy_ratio \\
+\midrule
+cbc & reduction & 0.971000 & 0.010000 & 0.010000 & 0.010000 & NaN & NaN & NaN & NaN \\
+covid19 & reduction & 0.806000 & 0.017000 & 0.018000 & 0.158000 & NaN & NaN & NaN & NaN \\
+iraq & reduction & 0.036000 & 0.258000 & 0.662000 & 0.043000 & NaN & NaN & NaN & NaN \\
+liverpool & reduction & 0.184000 & 0.220000 & 0.217000 & 0.379000 & NaN & NaN & NaN & NaN \\
+cbc & expansion & NaN & NaN & NaN & NaN & 0.971000 & 0.010000 & 0.010000 & 0.010000 \\
+covid19 & expansion & NaN & NaN & NaN & NaN & 0.010000 & 0.010000 & 0.971000 & 0.010000 \\
+iraq & expansion & NaN & NaN & NaN & NaN & 0.010000 & 0.010000 & 0.971000 & 0.010000 \\
+liverpool & expansion & NaN & NaN & NaN & NaN & 0.026000 & 0.047000 & 0.903000 & 0.024000 \\
+\bottomrule
+\end{tabular}
+\end{table}
